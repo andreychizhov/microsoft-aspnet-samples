@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>WebApiRouteDebugger</id>
+        <version>1.0.0</version>
+        <title>ASP.NET WebAPI Route Debugger</title>
+        <authors>Troy Dai</authors>
+        <projectUrl>http://aspnet.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <licenseUrl>http://aspnet.codeplex.com/license</licenseUrl>
+        <description>ASP.NET Web API Route Debugger</description>
+        <tags>AspNet AspNetWebApi RouteDebugger WebApi</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="jquery" version="1.8.3" />
+                <dependency id="knockoutjs" version="2.2.1" />
+                <dependency id="Twitter.Bootstrap" version="2.2.2" />
+                <dependency id="Microsoft.AspNet.Web.Optimization" version="1.0.0" />
+                <dependency id="Microsoft.AspNet.Mvc" version="4.0.20710.0" />
+                <dependency id="Microsoft.AspNet.WebApi.WebHost" version="4.0.20710.0" />
+                <dependency id="Microsoft.AspNet.Razor" version="2.0.20715.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Areas\RouteDebugger\Components\ActionSelectSimulator.cs.pp" target="content\Areas\RouteDebugger\Components" />
+        <file src="Areas\RouteDebugger\Components\DictionaryExtensions.cs.pp" target="content\Areas\RouteDebugger\Components" />
+        <file src="Areas\RouteDebugger\Components\HttpParameterBindingExtensions.cs.pp" target="content\Areas\RouteDebugger\Components" />
+        <file src="Areas\RouteDebugger\Components\TypeHelper.cs.pp" target="content\Areas\RouteDebugger\Components" />
+        <file src="Areas\RouteDebugger\Content\rdstyle.css" target="content\Areas\RouteDebugger\Content"  />
+        <file src="Areas\RouteDebugger\Controllers\RouteDebuggerController.cs.pp" target="content\Areas\RouteDebugger\Controllers" />
+        <file src="Areas\RouteDebugger\Models\ActionSelectionInfo.cs.pp" target="content\Areas\RouteDebugger\Models" />
+        <file src="Areas\RouteDebugger\Models\ActionSelectionLog.cs.pp" target="content\Areas\RouteDebugger\Models" />
+        <file src="Areas\RouteDebugger\Models\ControllerSelectionInfo.cs.pp" target="content\Areas\RouteDebugger\Models" />
+        <file src="Areas\RouteDebugger\Models\HttpParameterDescriptionInfo.cs.pp" target="content\Areas\RouteDebugger\Models" />
+        <file src="Areas\RouteDebugger\Models\InspectData.cs.pp" target="content\Areas\RouteDebugger\Models" />
+        <file src="Areas\RouteDebugger\Models\RouteDataInfo.cs.pp" target="content\Areas\RouteDebugger\Models" />
+        <file src="Areas\RouteDebugger\Models\RouteInfo.cs.pp" target="content\Areas\RouteDebugger\Models" />
+        <file src="Areas\RouteDebugger\Scripts\detect.js" target="content\Areas\RouteDebugger\Scripts" />
+        <file src="Areas\RouteDebugger\Views\RouteDebugger\Index.cshtml.pp" target="content\Areas\RouteDebugger\Views\RouteDebugger"  />
+        <file src="Areas\RouteDebugger\Views\Web.config" target="content\Areas\RouteDebugger\Views"  />
+        <file src="Areas\RouteDebugger\InspectActionInvoker.cs.pp"  target="content\Areas\RouteDebugger" />
+        <file src="Areas\RouteDebugger\InspectActionSelector.cs.pp" target="content\Areas\RouteDebugger" />
+        <file src="Areas\RouteDebugger\InspectControllerSelector.cs.pp" target="content\Areas\RouteDebugger" />
+        <file src="Areas\RouteDebugger\InspectHandler.cs.pp" target="content\Areas\RouteDebugger" />
+        <file src="Areas\RouteDebugger\RequestHelper.cs.pp" target="content\Areas\RouteDebugger" />
+        <file src="Areas\RouteDebugger\RouteDebuggerAreaRegistration.cs.pp" target="content\Areas\RouteDebugger" />
+        <file src="Areas\RouteDebugger\RouteDebuggerConfig.cs.pp" target="content\Areas\RouteDebugger" />
+    </files>
+</package>
