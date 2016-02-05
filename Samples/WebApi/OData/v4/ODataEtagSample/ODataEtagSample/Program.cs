@@ -22,7 +22,7 @@ namespace ODataEtagSample
             using (WebApp.Start(serverUrl, Configuration))
             {
                 Console.WriteLine("Server listening at {0}", serverUrl);
-                RunQueries();
+                //RunQueries();
                 Console.WriteLine("Press any key to exit...");
                 Console.ReadKey();
             }
