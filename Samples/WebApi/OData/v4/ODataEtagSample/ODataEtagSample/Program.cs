@@ -31,7 +31,7 @@ namespace ODataEtagSample
         private static void Configuration(IAppBuilder builder)
         {
             HttpConfiguration configuration = new HttpConfiguration();
-            configuration.Routes.MapODataServiceRoute("odata", "odata", GetModel());
+            configuration.MapODataServiceRoute("odata", "odata", GetModel());
             builder.UseWebApi(configuration);
         }
 
